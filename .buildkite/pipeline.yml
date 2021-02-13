@@ -2,7 +2,7 @@
 steps:
   - label: ":yaml: Meta"
     plugins:
-      - johnsyweb/yamllint#v1.0.0:
+      - file:///plugin/#HEAD: ~
           pattern: 'valid.yaml'
 
   - label: ":markdown: Markdown Lint"
