@@ -8,12 +8,16 @@ Checks YAML files and flags syntax errors
 Have you ever updated YAML configuration or eyaml secrets, and found that Norway
 had suddenly become "falsey"?
 
+Has your team specified what YAML files look like in a
+[`.yamllint.yaml`](https://yamllint.readthedocs.io/en/stable/configuration.html)
+file?
+
 Does [Buildkite](https://buildkite.com/) already perform checks on your
 repository?
 
 This plugin is for ***you***!
 
-## Development status
+## Development status [![Build status](https://badge.buildkite.com/430baaa3cf6df83e33ea778df5447cc9af32aae41b8739da34.svg)](https://buildkite.com/johnsyweb/yaml-lint-buildkite-plugin)
 
 This plugin is the [JSON Lint Buildkite
 Plugin](https://github.com/johnsyweb/jsonlint-buildkite-plugin) with "JSON"
